@@ -1,0 +1,179 @@
+/* Ini buat foto biar kebawah kanan */
+
+*{
+    box-sizing: border-box;
+}
+
+/* Ini buat scroll biar smooth */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 248, 254);
+}
+
+/* Ini textnya biar ada strokenya */
+h1, h2{
+    -webkit-text-stroke: 2px blue;
+    color: yellow;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Ini buat backround h1 h2 dan p nya */
+.uh1{
+    background: url(html21.jpeg);
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+
+/* Ini buat Navbar */
+ nav{
+    background-color: #b71c1c;
+    padding: 5px;
+    cursor: pointer;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+
+}
+nav li{
+    /* display inline sipaya sejajar horizontal*/
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a:hover{
+    color: #1565c0 !important;
+}
+
+
+
+/* Ini buat background 3d */
+.card{
+    border-radius: 7px;
+    padding: 15px;
+/* Box shadow supaya kelihatan lebih 3D*/
+    box-shadow: 0 4px 8px 0 #90caf9 ;
+}
+
+/* Ini supaya textnya float right 75% */
+.kanan{
+    width: 75%;
+    float: right;
+}
+
+/* Ini buat bagian foto biar float left*/
+aside{
+    text-align: center;
+    width: 24%;
+    float: left;
+}
+
+/* Ini buat foto biar bulet*/
+.buat_img{
+    border-radius: 100%;
+}
+
+
+/* Ini buat text biar bold*/
+.text_bold{
+    font-weight: bold;
+}
+
+/* Ini buat background biru dibawah nama*/
+.bg{
+    background-color: #4a148c;
+    color: white;
+    padding: 5px;
+
+}
+
+/* Ini supaya footer tetep ke bawah*/
+main{
+    overflow: auto;
+    padding: 15px
+}
+
+/* Ini buat desain bagian tombol projek*/
+.link{
+    color: white;
+    background: #514ce1;
+    height: 40px;
+    width: 250px;
+    font-family: 'poppins', sans-serif;
+}
+.link:hover{
+    color: whitesmoke !important;
+    font-size: 20px;
+}
+
+/* Ini bagian icon sosmed*/
+.sosmed{
+    position: relative;
+    margin-top: 50px;
+}
+
+.icon1{
+    /* posisi relatif biar dia tidak tertimbun oleh card*/
+    position: relative;
+    text-align: left;
+    font-size: 50px;
+}
+.icon2{
+    position: relative;
+    text-align: left;
+    font-size: 50px;
+}
+.icon3{
+    position: relative;
+    text-align: left;
+    font-size: 50px;
+}
+
+/* Ini desain icon hover*/
+.icon1:hover {
+    color: aqua !important;
+    font-size: 100px;
+}
+.icon2:hover {
+    color: aqua !important;
+    font-size: 100px;
+}
+.icon3:hover {
+    color: aqua !important;
+    font-size: 100px;
+}
+footer{
+    background-color: blue;
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* Ini supaya responsif webnya*/
+@media screen and (max-width: 922px){
+    .kanan, aside{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 780px){
+    .kanan, aside{
+        width: 100%;
+    }
+}
+
+.warna{
+    color: red;
+}
